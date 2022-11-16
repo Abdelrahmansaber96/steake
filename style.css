@@ -1,0 +1,21 @@
+
+body{
+    background-color: black;
+}
+.divider{
+    background-color: aliceblue;
+}
+.back1{
+background-image: url('img/intro.jpg');
+height: 400px;
+}
+@media (min-width:576px){
+    .back1{
+        height: 600px;
+    }
+}
+.book11{
+background-image: url('img/book.jpg');
+height:300px;
+background-size: cover;
+}
